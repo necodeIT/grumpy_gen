@@ -25,7 +25,7 @@ class App extends AppModule<AppConfig> {
 
   @override
   List<FlutterRoute<AppConfig>> get routes => [
-    ModuleRoute(path: '/Settings', module: Settings()),
+    ModuleRoute(path: '/settings', module: Settings()),
     ScreenRoute(path: '/dashboard', view: DashboardScreen()),
   ];
 
