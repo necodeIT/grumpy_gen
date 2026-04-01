@@ -1,0 +1,8 @@
+name: grumpy_flutter
+version: 0.0.1
+publish_to: none
+environment:
+  sdk: ^3.11.4
+dependencies:
+  grumpy:
+    path: ../grumpy
